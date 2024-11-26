@@ -13,7 +13,7 @@ figure
 title('Blue - Average         Red - Minimum');
 xlabel('Generation')
 ylabel('Objective Function Value')
-ylim([0,30]);
+ylim([10,15]);
 hold on
 % Genetic algorithm starts with an initial set of random solutions called population (encoded in a certain way).
 P=population(size,p);
